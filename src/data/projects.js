@@ -8,7 +8,8 @@ const projects = [
     title: "Chat Lobby",
     image: chatlobby,
     description: "Une application de chat en temps réel développée avec Spring Boot, WebSocket, et PostgreSQL.",
-    gitLink: "https://github.com/yaoureda/ChatLobby"
+    gitLink: "https://github.com/yaoureda/ChatLobby",
+    webLink: "https://chatlobby.onrender.com/"
   },
   {
     id: 2,
