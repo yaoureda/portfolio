@@ -5,7 +5,7 @@ function Formation() {
 
     return(
         <>
-            <h2>Mes formations</h2>
+            <h2>Formation</h2>
             <div className="container">
                 {schools.map(school =>
                 <SchoolCard 
