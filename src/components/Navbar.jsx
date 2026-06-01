@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { FaHome, FaGraduationCap, FaFolderOpen } from "react-icons/fa";
+import { FaHome, FaGraduationCap, FaFolderOpen, FaBriefcase } from "react-icons/fa";
 import { useState } from "react";
 
 function Navbar() {
@@ -28,6 +28,11 @@ function Navbar() {
         <li>
           <NavLink to="/projects" onClick={() => setIsOpen(false)}>
             <FaFolderOpen /> Projets
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/experiences" onClick={() => setIsOpen(false)}>
+            <FaBriefcase /> Expériences
           </NavLink>
         </li>
       </ul>
