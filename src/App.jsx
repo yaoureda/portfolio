@@ -5,8 +5,9 @@ import Footer from './components/Footer.jsx'
 import { Routes, Route } from "react-router-dom"
 
 import Home from "./pages/Home"
-import Projects from "./pages/Projects"
 import Formation from "./pages/Formation"
+import Projects from "./pages/Projects"
+import Experiences from "./pages/Experiences"
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/formation" element={<Formation />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/experiences" element={<Experiences />} />
       </Routes>
 
       <Footer />
