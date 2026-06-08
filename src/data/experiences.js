@@ -11,7 +11,7 @@ const experiences = [
         "- Conception et développement d'une API REST avec Spring Boot et PostgreSQL pour la gestion des bagages, vols et réclamations clients.",
         "- Développement d'une application mobile en React Native permettant aux clients d'enregistrer leurs bagages, téléverser leurs photos, les associer à des vols, et déclarer leurs pertes.",
         "- Développement d'une interface web en React et Typescript destinée au personnel afin de consulter les réclamations des clients et gérer leur traitement.",
-        "- Intégration d'un système d'authentification des clients et du personnel à l'aide de Spring Security."
+        "- Intégration d'un système d'authentification des clients et du personnel à l'aide de Keycloak et Spring Security."
     ]
   }
 ]
